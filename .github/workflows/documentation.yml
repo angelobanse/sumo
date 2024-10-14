@@ -43,7 +43,7 @@ jobs:
 
 
   ############################
-  # checking external links
+  # checking external and anchor links
   ############################
   external-link-check:
     runs-on: ubuntu-latest
@@ -64,4 +64,4 @@ jobs:
       uses: lycheeverse/lychee-action@v1
       with:
         fail: true
-        args: -c docs/web/lychee.toml -n docs/web/docs/ --cache --max-cache-age 2d
+        args: -c docs/web/lychee.toml -n docs/web/docs/ --cache --max-cache-age 2d --include-fragments
