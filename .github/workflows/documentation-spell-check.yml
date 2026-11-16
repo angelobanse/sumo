@@ -1,5 +1,13 @@
 name: Spellcheck Markdown documentation
 
+on:
+  push:            # run on push events in the docs subfolder
+   paths:
+     - 'docs/**'
+  workflow_dispatch:
+  schedule:
+  - cron: '30 1 * * *' # daily at 01:30 UTC
+
 uses: streetsidesoftware/cspell-action@v8
 with:
     config: docs/web/cspell.json
