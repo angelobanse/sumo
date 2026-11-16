@@ -13,10 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5
+      
     - name: cspell check
       uses: streetsidesoftware/cspell-action@v8
       with:
-          config: ./docs/web/cspell.json
+          config: docs/web/cspell.json
           root: .
           files: |
             docs/web/**/*.md
