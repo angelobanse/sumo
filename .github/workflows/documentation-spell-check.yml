@@ -1,4 +1,4 @@
-name: Spellcheck Markdown documentation
+name: documentation-spell-check
 
 on:
   push:            # run on push events in the docs subfolder
@@ -16,7 +16,7 @@ jobs:
     - name: cspell check
       uses: streetsidesoftware/cspell-action@v8
       with:
-          config: docs/web/cspell.json
+          config: ./docs/web/cspell.json
           root: .
           files: |
             docs/web/**/*.md
