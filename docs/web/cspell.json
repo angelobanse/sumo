@@ -5,6 +5,9 @@
   "files": [
     "**/*.md"
   ],
+  "ignorePaths": [
+    "docs/web/docs/DiplomStudArb.md"
+  ],
   "dictionaryDefinitions": [
     {
       "name": "sumo-dictionary",
