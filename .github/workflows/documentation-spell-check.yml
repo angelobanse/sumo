@@ -1,0 +1,12 @@
+      - name: Spellcheck Markdown documentation
+        uses: streetsidesoftware/cspell-action@v8
+        with:
+          config: docs/web/cspell.json
+          root: .
+          files: |
+            docs/web/**/*.md
+          incremental_files_only: false
+          inline: warning
+          suggestions: true
+          strict: true
+          report: all
