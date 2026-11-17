@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: New issue
 about: Report a problem or unexpected behavior in SUMO
 title: ''
 labels: ''
@@ -12,4 +12,9 @@ Add your issue description here.
 
 **SUMO-version:**
 
-**operating system:**
+**Operating system:**
+
+```
+Paste any code or
+error logs in here
+```
