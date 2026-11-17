@@ -1,3 +1,11 @@
+---
+name: Bug report
+about: Report a problem or unexpected behavior in SUMO
+title: ''
+labels: ''
+assignees: ''
+---
+
 Add your issue description here.
 
 *If possible, upload an example that shows your problem.*
