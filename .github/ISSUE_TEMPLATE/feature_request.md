@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: A new feature or suggestion
+about: A request, idea, or new functionality
 title: ''
 labels: ''
 type: 'feature'
