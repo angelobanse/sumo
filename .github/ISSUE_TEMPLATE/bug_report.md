@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a problem or unexpected behavior in SUMO
+about: Report an unexpected problem or behavior
 title: ''
 labels: ''
 type: 'bug'
