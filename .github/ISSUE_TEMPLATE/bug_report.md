@@ -3,18 +3,32 @@ name: Bug report
 about: Report a problem or unexpected behavior in SUMO
 title: ''
 labels: ''
+type: 'bug'
 assignees: ''
 ---
 
-Add your issue description here.
+Thanks for reporting a bug!
 
-*If possible, upload an example that shows your problem.*
+The following template is optional and only intended as a guide. Feel free to modify it, remove any sections, or delete the entire template and describe the problem in your own words.
 
-**SUMO-version:**
+**Bug description:**
+
+What happened? What did you expect to happen?
+
+**Steps to reproduce (if applicable):**
+
+1.
+2.
+3.
+
+**SUMO version:**
 
 **Operating system:**
 
+**Additional information:**
+
+If relevant, please include a minimal example, screenshots, error messages, or logs if available.
+
 ```
-Paste any code or
-error logs in here
+Paste error messages or logs here
 ```
