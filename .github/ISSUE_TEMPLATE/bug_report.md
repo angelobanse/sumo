@@ -1,5 +1,5 @@
 ---
-name: New issue
+name: Bug report
 about: Report a problem or unexpected behavior in SUMO
 title: ''
 labels: ''
